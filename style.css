@@ -19,6 +19,7 @@
   font-style: bold;
   font-weight: 800;
 }
+
 @font-face {
   font-family: "PFDinDisplayPro-Thin";
   src: url("fonts/PFDinDisplayPro-Thin/PFDinDisplayPro-Thin.eot");
@@ -29,6 +30,7 @@
   font-style: normal;
   font-weight: 300;
 }
+
 @font-face {
   font-family: "PFDinDisplayPro-Regular";
   src: url("fonts/PFDinDisplayPro-Regular/PFDinDisplayPro-Regular.eot");
@@ -41,7 +43,7 @@
 }
 
 body {
-  background: #073e8f;
+  background: #004195;
   margin: 0;
   padding: 0;
   color: #fff;
@@ -95,25 +97,29 @@ html {
 
 .logo_goodstory {
   position: absolute;
-  top: 4vw;
-  left: 6vw;
-  width: 8vw;
+  width: 15vw;
+  top: 2vw;
+  left: 3vw;
   z-index: 9;
 }
-.logo_goodstory img{
-  width:100%;
-  max-width: 160px;
+
+.logo_goodstory img {
+  width: 100%;
+  max-width: 220px;
 }
+
 .logo_tnt4 {
   position: absolute;
   top: 4vw;
   right: 6vw;
   width: 8vw;
 }
-.logo_tnt4 img{
-  width:100%;
+
+.logo_tnt4 img {
+  width: 100%;
   max-width: 124px;
 }
+
 .header_img {
   width: 100%;
 }
@@ -145,56 +151,68 @@ h1 {
   font-size: 1.3vw;
   font-family: 'PFDinDisplayPro-Regular', Arial, Helvetica, sans-serif;
 }
-.description__casting{
+
+.description__casting {
   position: absolute;
   top: 50vw;
   text-align: justify;
   width: 50vw;
   left: 25vw;
   font-family: 'PFDinDisplayPro-Thin', Arial, Helvetica, sans-serif;
-  margin-bottom:50px;
+  margin-bottom: 50px;
 }
+
 @media (max-width: 780px) {
-  .description__casting{
-  width: 80vw;
-  left: 10vw;
+  .description__casting {
+    width: 80vw;
+    left: 10vw;
   }
 
-  .header_img{
+  .header_img {
     width: 120%;
     left: -10%;
     position: relative;
   }
-  .header_title{
-    top:45vw;
+
+  .header_title {
+    top: 45vw;
   }
-  h1{
+
+  h1 {
     font-size: 6vw;
   }
-  .title2{
+
+  .title2 {
     font-size: 5vw;
   }
-  .title3{
+
+  .title3 {
     font-size: 2.6vw;
   }
-  .description__casting{
+
+  .description__casting {
     top: 70vw;
   }
+
   .urls {
-    font-size: 3vw!important;
+    font-size: 3vw !important;
+  }
 }
-}
-.text_uppercase{
+
+.text_uppercase {
   text-transform: uppercase;
 }
-.center{
+
+.center {
   text-align: center;
 }
-.urls{
+
+.urls {
   font-size: 1.5vw;
 }
-.urls a{
-  color:#d4ff3d;
+
+.urls a {
+  color: #d4ff3d;
   text-decoration: none;
   font-family: 'PFDinDisplayPro', Arial, Helvetica, sans-serif;
 }
