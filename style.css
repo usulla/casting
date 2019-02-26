@@ -1,0 +1,200 @@
+@font-face {
+  font-family: "PFDinDisplayPro";
+  src: url("fonts/PFDinDisplayPro-Bold/PFDinDisplayPro-Bold.eot");
+  src: url("fonts/PFDinDisplayPro-Bold/PFDinDisplayPro-Bold?#iefix") format("embedded-opentype"),
+    url("fonts/PFDinDisplayPro-Bold/PFDinDisplayPro-Bold.woff") format("woff2"),
+    url("fonts/PFDinDisplayPro-Bold/PFDinDisplayPro-Bold.woff") format("woff"),
+    url("fonts/PFDinDisplayPro-Bold/PFDinDisplayPro-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "PFDinDisplayPro-Black";
+  src: url("fonts/PFDinDisplayPro-Black/PFDinDisplayPro-Black.eot");
+  src: url("fonts/PFDinDisplayPro-Black/PFDinDisplayPro-Black?#iefix") format("embedded-opentype"),
+    url("fonts/PFDinDisplayPro-Black/PFDinDisplayPro-Black.woff") format("woff2"),
+    url("fonts/PFDinDisplayPro-Black/PFDinDisplayPro-Black.woff") format("woff"),
+    url("fonts/PFDinDisplayPro-Black/PFDinDisplayPro-Black.ttf") format("truetype");
+  font-style: bold;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "PFDinDisplayPro-Thin";
+  src: url("fonts/PFDinDisplayPro-Thin/PFDinDisplayPro-Thin.eot");
+  src: url("fonts/PFDinDisplayPro-Thin/PFDinDisplayPro-Thin?#iefix") format("embedded-opentype"),
+    url("fonts/PFDinDisplayPro-Thin/PFDinDisplayPro-Thin.woff") format("woff2"),
+    url("fonts/PFDinDisplayPro-Thin/PFDinDisplayPro-Thin.woff") format("woff"),
+    url("fonts/PFDinDisplayPro-Thin/PFDinDisplayPro-Thin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "PFDinDisplayPro-Regular";
+  src: url("fonts/PFDinDisplayPro-Regular/PFDinDisplayPro-Regular.eot");
+  src: url("fonts/PFDinDisplayPro-Regular/PFDinDisplayPro-Regular?#iefix") format("embedded-opentype"),
+    url("fonts/PFDinDisplayPro-Regular/PFDinDisplayPro-Regular.woff") format("woff2"),
+    url("fonts/PFDinDisplayPro-Regular/PFDinDisplayPro-Regular.woff") format("woff"),
+    url("fonts/PFDinDisplayPro-Regular/PFDinDisplayPro-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+}
+
+body {
+  background: #073e8f;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  line-height: 1.3;
+  font-weight: 400;
+  text-align: left;
+  overflow-x: hidden;
+  font-family: 'PFDinDisplayPro', Arial, Helvetica, sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 780px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 781px) and (max-width: 1024px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1280px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 781px) {
+  html {
+    overflow-x: hidden;
+  }
+}
+
+.logo_goodstory {
+  position: absolute;
+  top: 4vw;
+  left: 6vw;
+  width: 8vw;
+  z-index: 9;
+}
+.logo_goodstory img{
+  width:100%;
+  max-width: 160px;
+}
+.logo_tnt4 {
+  position: absolute;
+  top: 4vw;
+  right: 6vw;
+  width: 8vw;
+}
+.logo_tnt4 img{
+  width:100%;
+  max-width: 124px;
+}
+.header_img {
+  width: 100%;
+}
+
+.header_title {
+  position: absolute;
+  top: 35vw;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100vw;
+}
+
+h1 {
+  font-family: 'PFDinDisplayPro-Black', Arial, Helvetica, sans-serif;
+  font-size: 3.5vw;
+  margin-bottom: 0;
+}
+
+.title2 {
+  display: block;
+  color: #d4ff3d;
+  font-size: 2.5vw;
+  font-family: 'PFDinDisplayPro-Regular', Arial, Helvetica, sans-serif;
+}
+
+.title3 {
+  display: block;
+  color: #d4ff3d;
+  font-size: 1.3vw;
+  font-family: 'PFDinDisplayPro-Regular', Arial, Helvetica, sans-serif;
+}
+.description__casting{
+  position: absolute;
+  top: 50vw;
+  text-align: justify;
+  width: 50vw;
+  left: 25vw;
+  font-family: 'PFDinDisplayPro-Thin', Arial, Helvetica, sans-serif;
+  margin-bottom:50px;
+}
+@media (max-width: 780px) {
+  .description__casting{
+  width: 80vw;
+  left: 10vw;
+  }
+
+  .header_img{
+    width: 120%;
+    left: -10%;
+    position: relative;
+  }
+  .header_title{
+    top:45vw;
+  }
+  h1{
+    font-size: 6vw;
+  }
+  .title2{
+    font-size: 5vw;
+  }
+  .title3{
+    font-size: 2.6vw;
+  }
+  .description__casting{
+    top: 70vw;
+  }
+  .urls {
+    font-size: 3vw!important;
+}
+}
+.text_uppercase{
+  text-transform: uppercase;
+}
+.center{
+  text-align: center;
+}
+.urls{
+  font-size: 1.5vw;
+}
+.urls a{
+  color:#d4ff3d;
+  text-decoration: none;
+  font-family: 'PFDinDisplayPro', Arial, Helvetica, sans-serif;
+}
